@@ -1,0 +1,18 @@
+/* INICIANDO MEU PRIMEIRO ARQUIVO CSS*/
+
+.profile__header {
+    color: #d33e66;    
+    width: 400px;
+    
+}
+
+.profile__about {
+    font-size: 18px;
+    background-color: gray;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    border: dashed;
+
+}

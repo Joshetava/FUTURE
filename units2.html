@@ -1,0 +1,32 @@
+<style>
+    html {
+        font-size: 18px; /*define o tamanho da fonte padrão do arquivo.htm. Que pode sermodificado usando a unidade de medida "rem"*/
+    }
+    
+/*Criando fundo do tamanho da tela do dispositivo*/
+/*Criando fundo do tamanho da TV Samsung div.units width 1519.1px height 741.888px*/
+    div.parent {
+        width: 1500px;
+        height: 1500px;
+        background: grey;
+        font-size: 20px;
+    }
+
+    div.units {
+        width: 10cm;/*poderia ser "width: 10in(inche ou polegada US); 10cm, 100mm, 100pt, 1519.1px ou 98.9vw;" significa 98.9% da tela disponível no navegador*/
+        height: 100mm;/*poderia ser "height: 10cm;, 741.888px ou 48.3vh;" significa 48.3% da tela disponível no navegador*/
+        background: blue;
+        font-size: 2rem;/*pt é usado para fontes e ambientes de impressão*/
+        color:white;
+        /*poderia ser também 10em;10em,etc que significa duplicar a medida padrão div.parent poderia ser também 1rem;  1rem nesse caso que a fonte
+        padrão lá em cima html definida é 18px equivale a 18px, assim 2rem seria 36px.*/
+    }
+    
+}
+    
+</style>
+  
+<div class="parent">
+    Teste de teste - PARENT
+    <div class="units">Texto de teste - UNITS</div>
+</div>

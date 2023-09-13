@@ -1,0 +1,102 @@
+/* INICIANDO MEU PRIMEIRO ARQUIVO CSS*/
+
+body {
+    color:#444;    
+    background: rgb(248,246,249);
+    background: linear-gradient(90deg, rgba(248,246,249,1) 0%, rgba(247,160,245,1) 50%, rgba(248,246,249,1) 100%);
+    min-height: 100vh;
+}
+.container {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;          
+}
+
+.destaque {
+    color: red;
+}
+
+a.destaque {
+    color: blue;
+}
+
+.profile {
+    margin-top: 30px;
+    margin-bottom: 56px;
+}
+
+.profile__header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.profile__header h2 {
+    font-weight: 550;
+}
+
+.profile__header h1, .profile__header h2 {
+    margin: 1px;
+    font-family: sans-serif;
+}
+
+.profile__header {
+    text-align: center;
+    font-family: sans-serif;
+}
+.profile__about {
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.profile__about div { 
+    padding: 1px; 
+    margin: 1px;       
+}
+
+.profile__about .destaque {
+    color: white;
+}
+
+.links ol {
+    display: block;
+    list-style: none;
+    padding: 0 24px;
+}
+
+.links a {
+    display: flex;
+    height: 56px;
+    border: solid #444 1px;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: justify;
+    margin-bottom: 16px;
+    color:#444;
+    font-weight: 600;
+    font-family: sans-serif; 
+    font-size: 18px;
+}
+
+.links__item {
+    width: 100%;
+    text-align: center;
+}
+
+.links a:hover {
+    border:solid#fff 1px;
+    color:#fff;
+    background-color:blueviolet;
+}
+
+@media screen and (max-width: 720px) {
+    .profile__about {
+        font-size: 20px;
+    }
+}
