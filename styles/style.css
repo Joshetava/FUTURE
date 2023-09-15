@@ -14,17 +14,24 @@ body {
 }
 
 .destaque {
-    color: red;
+    color: red;   
 }
 
 a.destaque {
     color: blue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+b.destaque {
+    color:aqua;
 }
 
 .profile {
     margin-top: 30px;
     margin-bottom: 56px;
 }
+
 
 .profile__header img {
     width: 200px;
@@ -48,8 +55,14 @@ a.destaque {
     text-align: center;
     font-family: sans-serif;
 }
-.profile__about {
+
+.center {
     text-align: center;
+    font-family: sans-serif;
+  }
+
+.profile__about {
+    text-align: justify;
     font-family: sans-serif;
 }
 
