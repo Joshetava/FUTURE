@@ -62,6 +62,12 @@ b.destaque {
     color:#210404
   }
 
+  .like-button {
+    text-align: center;
+    font-family: sans-serif;
+    color:#210404
+  }
+
 .profile__about {
     text-align: justify;
     font-family: sans-serif;
