@@ -3,13 +3,13 @@
 body {
     color:#444;    
     background: rgb(248,246,249);    
-    min-height: 100vh;
+    min-height: 10vh;    
 }
 .container {
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1px;          
+    padding: 1px;              
 }
 
 .destaque {
@@ -27,8 +27,8 @@ b.destaque {
 }
 
 .profile {
-    margin-top: 15px;
-    margin-bottom: 28px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
 
 
