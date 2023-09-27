@@ -63,7 +63,10 @@ b.destaque {
   }
 
   .like-button {
-    text-align: center;
+    width: 40%;
+    height: 40px;
+    color: #210404;
+    text-align: right;
     font-family: sans-serif;
     color:#210404
   }
@@ -117,8 +120,38 @@ b.destaque {
     background-color:blueviolet;
 }
 
-@media screen and (max-width: 720px) {
-    .profile__about {
-        font-size: 20px;
-    }
-}
+  .containerB {
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    width: 30%;
+    height: 40px;
+    color: #210404;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 35px;    
+    text-align: center;
+    margin: 0 4px;
+  }
+  input:disabled {
+    background-color: #FFFFFF;
+  }
+  button {
+    width: 30%;
+    height: 40px;
+    background-color: none;
+    color:#210404;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background .25s ease-in-out;
+  }
+  button:hover {
+    border:solid#fff 1px;
+    color:#fff;
+    background-color:blueviolet;
+  }
