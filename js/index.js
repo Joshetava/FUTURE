@@ -2,7 +2,7 @@ const counter = document.querySelector('#counterValue');
 /*const buttonDecrement = document.querySelector('#buttonDecrement');*/
 const buttonIncrement = document.querySelector('#buttonIncrement');
         
-        value = counter.value;
+        let value = counter.value;
         
         buttonIncrement.addEventListener('click',() => {
           value = ++value;
