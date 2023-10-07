@@ -2,13 +2,16 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge"><!--<Ativando este código-->    
+    <!--<meta http-equiv="X-UA-Compatible" content="IE-edge"--><!--<Desativando este código-->    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil do Tigre</title>
+    <title>Perfil do Tigre - Estudos</title>
     <meta name="description" content="Página de estudos Fluency Future">
     <link rel="stylesheet" href="./styles/style.css"><!--Este código vincula um arquivo externo de uma pasta externa-->
-    <!--<link rel="stylesheet" href=".styles/normalize.css"--><!--Este código foi retirado para evitar erro-->
-    
+    <!--<link rel="stylesheet" href=".styles/normalize.css">--><!--<Desativando este código-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
+
     <!--  Meta tags para redes sociais -->
     <meta property="og:title" content="Joshetava">
     <meta property="og:type" content="website">
@@ -19,46 +22,53 @@
     <meta property="og:url" content="https://joshetava.github.io/estudos/">
 
 </head>
-<body>
+<body>              
     <div class="container">
-
         <!--Seção superior-->
-        <div class="profile">
-            <div class="profile__header">
-                <img src="images/tigre.webp" width="200px" alt="imagem de uma cabeça de tigre de frente mostrando as presas">
-                <h1>O TIGRE É O REI DOS ANIMAIS?</h1>
-                <h2>Ele é capaz de vencer um leão?</h2>               
-            </div>
+        <div class="box__avatar">
+            <img src="images/TigreNegroB.webp" width="200px" alt="imagem de uma cabeça de tigre negro olhando fixamente para frente">           
             
-            <div class=".center">
-               <h3 class="center">Descrição sobre o perfil do tigre</h3>
+            <div class="profile">
+                <div class="profile__header">
+                <h1>TIGRE</h1>
+                <!--<h2>O tigre é o rei dos animais?</h2>-->
+                </div>
             </div>
         
-            <div class="profile__about">
-                <p><h3>O tigre é um animal fantástico, ágil, veloz e muito feroz, com belíssimas cores e listras pelo corpo inteiro,este animal deveria ser considerado o rei dos animais. Vive no continente asiático e pode ser considerado o "Rei" em seu ambiente, assim como é o leão na Africa e a onça pintada na América do Sul. </h3></p>
-            </div>
-        </div>    
-    
-    <!--Seção de Links-->
-        <div class="links">
-            <ol>
-                <li><a href="https://pt.wikipedia.org/wiki/Tigre"><span class="emoji">&#128047;</span><span class="links__item">Tigre</span></a></li>
-                <li><a href="https://pt.wikipedia.org/wiki/Le%C3%A3o"><span class="emoji">&#129409;</span><span class="links__item">Leão</span></a></li>
-                <li><a href="https://pt.wikipedia.org/wiki/Panthera_onca"><span class="emoji">&#128049;</span><span class="links__item">Onça</span></a></li>
-                <li><a href="https://cursos.fluencyacademy.io/login"><span class="emoji">&#128104;</span><span class="links__item">José de Almeida - Aluno do Fluency Future</span></a></li>               
-            </ul>
         </div>
 
-        
-        <!--Devido a não terem desbloqueado a Unidade 15, Trilha 4, fui estudar por conta própria e acrescentei os códigos abaixo-->
-        <div class="containerB">        
-        <!--<button id="buttonDecrement">-</button>-->
+        <div class="containerA">
+            <div class=".center">
+                <div class="center">
+                <h3>Descrição sobre o perfil do tigre</h3>
+                <!--<div class="profile__about">
+                    <p><h3>O tigre é um animal fantástico, ágil, veloz e muito feroz, com belíssimas cores e listras pelo corpo inteiro,este animal deveria ser considerado o rei dos animais. Vive no continente asiático e pode ser considerado o "Rei" em seu ambiente, assim como é o leão na Africa e a onça pintada na América do Sul. </h3></p>
+                    </div>-->
+            </div>               
+        </div>
+            <!--Seção de Links-->        
+    </div>
+
+    <div class="links">
+        <ol>
+            <li><a href="https://pt.wikipedia.org/wiki/Tigre"><span class="emoji">&#128047;</span><span class="links__item">Tigre</span></a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Le%C3%A3o"><span class="emoji">&#129409;</span><span class="links__item">Leão</span></a></li>
+            <!--<li><a href="https://pt.wikipedia.org/wiki/Panthera_onca"><span class="emoji">&#128049;</span><span class="links__item">Onça</span></a></li>
+            <li><a href="https://cursos.fluencyacademy.io/login"><span class="emoji">&#128104;</span><span class="links__item">José de Almeida - Aluno do Fluency Future</span></a></li>-->               
+        </ul>
+    </div>
+    <!--Devido a não terem desbloqueado a Unidade 15, Trilha 4, fui estudar por conta própria e acrescentei os códigos abaixo-->
+    <div class="containerB">                 
+    <!--<button id="buttonDecrement">-</button>-->
         <button id="buttonIncrement"><span class="emoji">&#128077;Curtir</span></button>       
         <input type="text" value= "0" disabled id="counterValue">
          <!--Teste de botão like-->     
-        <button id="like-button">Pessoas Curtiram</button><!--arial label a ser aprendido em aulas futuras-->
+        <button id="like-button">Curtiram</button><!--arial label a ser aprendido em aulas futuras-->
         <script type="text/javascript" src="js/index.js"></script> <!--Este código referencia ao arquivo externo index.js da pasta externa js-->
-        </div>           
+    </div>
+
+    
+               
            
         <!--O código <script> abaixo seria utilizado dentro deste arquivo index.html, mas fiz um arquivo .js externo-->
         <!--<script>  
@@ -72,9 +82,9 @@
           value = ++value;
           counter.value = value;
         });
-        </script>-->      
+        </script>-->     
                 
-    </div>
+    
     
 </body>
 </html>
