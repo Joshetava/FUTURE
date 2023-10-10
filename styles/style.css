@@ -1,252 +1,254 @@
 /* INICIANDO MEU PRIMEIRO ARQUIVO CSS*/
 
 body {    
-    color:#444;    
-    /*background-image: url(../images/background.jpg); */ 
-    min-height: 40vh;       
+  color:#444;    
+  /*background-image: url(../images/background.jpg); */ 
+  min-height: 40vh;       
 }
 
-
-
 html * {
-    box-sizing: content-box;
-  }
-  
-  html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-    min-width: 100%;
-  }
-  
-  html {
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  box-sizing: content-box;
+}
 
-  .container {
-    margin-top: 100px;
-    max-width: 650px;
-    min-height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px;
-    padding: 1px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 85vh;
+  min-width: 100%;
+}
 
-  .container1 {
-    margin-top: 100px;
-    width: 650px;
-    min-height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px;
-    padding: 1px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
+html {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 100px;
+  max-width: 650px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  padding: 1px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  margin-top: 100px;
+  width: 650px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  padding: 1px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
 
 /*.container { 
-    max-width: 450px;
-    max-height: 00px;       
-    padding: 10px;
-    padding: 64px;
-    display: ruby-base-container;
-    margin: 50px 0;        
-    position: center;
-    padding-top: 50px;
-    border-radius: 24px;
-    background: #FFF;
-    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
-    } */                  
+  max-width: 450px;
+  max-height: 00px;       
+  padding: 10px;
+  padding: 64px;
+  display: ruby-base-container;
+  margin: 50px 0;        
+  position: center;
+  padding-top: 50px;
+  border-radius: 24px;
+  background: #FFF;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+  } */                  
 
 
 .destaque {
-    color: red;   
+  color: red;   
 }
 
 a.destaque {
-    color: blue;
-    text-align: center;
-    font-family: sans-serif;
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 b.destaque {
-    color:aqua;
+  color:aqua;
 }
 
 .profile {
-    width: 100%;
-    height: 35px;        
-    border-radius: 24px;
-    margin: auto;   
-    background-color: #FFFFFF;
+  width: 100%;
+  height: 35px;        
+  border-radius: 24px;
+  margin: auto;   
+  background-color: #FFFFFF;
 }
+
 .box__avatar {
-    left: 50%;
-    top: 100px;
-    width: 200px;
-    height: 152px;
-    /*border-radius: 100px;*/
-    position: absolute;
-    transform: translateX(-50%);
+  left: 50%;
+  top: 100px;
+  width: 200px;
+  height: 152px;
+  /*border-radius: 100px;*/
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 
 /*.profile__header img {
-    width: 200px;
-    height: 200px;    
-    border-radius: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0px;
-    margin-top: 10px;
+  width: 200px;
+  height: 200px;    
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }*/
 
 .profile__header h2 {
-    font-weight: 550;
+  font-weight: 550;
 }
 
 .profile__header h1, .profile__header h2 {
-    margin: 0px;
-    font-family: sans-serif;
-    text-align: center;
-    color:#210404;
+  margin: 0px;
+  font-family: sans-serif;
+  text-align: center;
+  color:#210404;
 }
 
 .profile__header {
-    text-align: center;
-    font-family: sans-serif;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .center {
-    text-align: center;
-    font-family: sans-serif;
-    width: 400px;
-    height: auto;
-    border-radius: 24px;
-    margin: auto;
-    background-color: #FFFFFF;
-  }
-
-  .like-button {
-    width: 40%;
-    height: 100px;
-    color: #210404;
-    text-align: right;
-    font-family: sans-serif;
-    color:#210404
-  }
+  text-align: center;
+  font-family: sans-serif;
+  width: 400px;
+  height: auto;
+  border-radius: 24px;
+  margin: auto;
+  background-color: #FFFFFF;
+}
 
 .profile__about {
-    margin: 20px;
-    text-align: justify;
-    font-family: sans-serif;
-    color:#210404
+  margin: 20px;
+  text-align: justify;
+  font-family: sans-serif;
+  color:#210404
 }
 
 .profile__about div { 
-    padding: 1px; 
-    margin: 1px;       
+  padding: 1px; 
+  margin: 1px;       
 }
 
 .profile__about .destaque {
-    color: white;
+  color: white;
 }
 
 .links ol {
-    display: block;
-    list-style: none;
-    padding: 0 150px;
+  display: block;
+  list-style: none;
+  padding: 0 150px;
 }
 
 .links a {
-    display: flex;
-    height:40px;
-    background-color: #FFFFFF;
-    border: none;
-    border-radius: 35px;
-    text-decoration: none;
-    padding: 0 24px;
-    align-items: center;
-    justify-content: justify;
-    margin-bottom: 16px;
-    color:#444;
-    font-weight: 600;
-    font-family: sans-serif; 
-    font-size: 18px;
+  display: flex;
+  height:40px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 35px;
+  text-decoration: none;
+  padding: 0 24px;
+  align-items: center;
+  justify-content: justify;
+  margin-bottom: 16px;
+  color:#444;
+  font-weight: 600;
+  font-family: sans-serif; 
+  font-size: 18px;
 }
 
 .links__item {
-    width: 100%;
-    text-align: center;
-    color:#210404
+  width: 100%;
+  text-align: center;
+  color:#210404
 }
 
 .links a:hover {
-    border:solid#fff 1px;
-    color:#fff;
-    background-color:blueviolet;
+  border:solid#fff 1px;
+  color:#fff;
+  background-color:blueviolet;
 }
 
 .containerA {
-    max-width: 650px;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px;
-    padding: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  max-width: 650px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .containerB {
-    max-height: fit-content;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.containerB {
+  max-height: fit-content;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-button {
+  width: 40%;
+  height: 100px;
+  color: #210404;
+  text-align: right;
+  font-family: sans-serif;
+  color:#210404
+}
+
+input {
+  width: 40%;
+  height: 25px;
+  background-color: #FFFFFF;
+  color: #210404;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 35px;    
+  text-align: center;
+  margin: 0 4px;
+}
+
+input:disabled {
+  background-color: #FFFFFF;
   
-  input {
-    width: 30%;
-    height: 25px;
-    background-color: #FFFFFF;
-    color: #210404;
-    font-size: 1rem;
-    border: 0;
-    border-radius: 35px;    
-    text-align: center;
-    margin: 0 4px;
-  }
-  input:disabled {
-    background-color: #FFFFFF;
-    
-  }
-  button {
-    width: 30%;
-    height: 25px;
-    background-color: #FFFFFF;
-    color:#210404;
-    font-size: 1rem;
-    border: 0;
-    border-radius: 35px;
-    cursor: pointer;
-    transition: background .25s ease-in-out;
-  }
-  button:hover {
-    border:solid#fff 1px;
-    color:#fff;
-    background-color:blueviolet;
-  }
+}
+button {
+  width: 40%;
+  height: 25px;
+  background-color: #FFFFFF;
+  color:#210404;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: background .25s ease-in-out;
+}
+
+
+button:hover {
+  border:solid#fff 1px;
+  color:#fff;
+  background-color:blueviolet;
+}
