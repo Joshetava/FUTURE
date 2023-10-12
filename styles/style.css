@@ -110,7 +110,7 @@ b.destaque {
   font-family: sans-serif;  
   min-height: 30px;
   max-width: 400px;
-  min-width: 390px;
+  min-width: fit-contents;
   height: 40px;
   display: flex;
   border-radius: 24px;
