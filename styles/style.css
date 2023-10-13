@@ -1,7 +1,7 @@
 /* INICIANDO MEU PRIMEIRO ARQUIVO CSS*/
 
 body {
-  margin-left: 13px;    
+  margin: auto;    
   color:#444; 
   min-height: 40vh;       
 }
@@ -92,7 +92,7 @@ b.destaque {
 }
 
 .profile__header {
-  max-width: 200px;
+  max-width: 150px;
   height: 35px;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -108,9 +108,9 @@ b.destaque {
 
 .center {
   text-align: center;
-  font-family: sans-serif;  
+  font-family: sans-serif;
   min-height: 30px;
-  max-width: 400px;
+  max-width: 342px;
   min-width: fit-contents;
   height: 40px;
   display: flex;
@@ -127,6 +127,7 @@ b.destaque {
   margin: 15px;
   margin-left: 15px;
   text-align: center;
+  font-size: 20px;
 }
 
 .profile__about {
