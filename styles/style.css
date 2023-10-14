@@ -115,7 +115,8 @@ b.destaque {
   font-family: sans-serif;
   min-height: 25px;
   max-width: 350px;
-  min-width: fit-contents;
+  min-width: auto;
+  min-width: fit-content;
   height: 25px;
   display: flex;
   border-radius: 24px;
@@ -128,10 +129,11 @@ b.destaque {
 
 .center p {
   word-wrap: break-word;
-  margin: 15px;
-  margin-left: 15px;
+  margin: 0px;
+  margin-left: auto;
   text-align: center;
   font-size: 20px;
+  max-width: 350px;
 }
 
 .profile__about {
@@ -201,6 +203,7 @@ b.destaque {
 
 .containerB {
   max-width: 350px;
+  min-width: auto;
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -249,10 +252,10 @@ input:disabled {
 }
 
 button {
-  width: 40%;
-  height: 25px;
+  width: 33.33%;
+  min-height: auto;
   background-color: #FFFFFF;
-  color:#210404;
+  color: #210404;
   font-size: 1rem;
   border: 0;
   border-radius: 35px;
