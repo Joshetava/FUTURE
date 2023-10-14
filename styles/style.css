@@ -1,26 +1,40 @@
 /* INICIANDO MEU PRIMEIRO ARQUIVO CSS*/
 
-body {    
-  color:#444; 
-  min-height: 40vh;       
+body {
+  background-color: var(--neutral--10);
+  color: var(--neutral--100);
+  letter-spacing: -.011em;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+body {
+  min-height: 100%;
+  color: #333;
+  background-image: url(../images/background.webp);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+body {
+  margin: 0;
 }
 
-html * {
-  box-sizing: content-box;  
+* {
+  box-sizing: border-box;
 }
-
-html, body {
-  margin: auto;  
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-  width: 100%;
+folha de estilos de agente de usuário
+body {
+  display: block;
+  margin: 8px;
 }
-
+/*
 html {
   background-image: url(../images/background.webp);
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
 .container {
   min-width: 350px;
@@ -140,7 +154,7 @@ b.destaque {
   max-width: 350px;
     display: block;
     list-style: none;
-    padding: 0 168px;
+    padding: 0 26px;
     min-width: 115px;
 }
 
