@@ -146,7 +146,9 @@ b.destaque {
   margin: 20px;
   text-align: justify;
   font-family: sans-serif;
-  color:#210404
+  color:#210404;
+  font-weight: 350;
+  line-height: 24px;
 }
 
 .profile__about div { 
@@ -160,10 +162,10 @@ b.destaque {
 
 .links ol {
   max-width: 350px;
-    display: block;
-    list-style: none;
-    padding: 0 26px;
-    min-width: 115px;
+  display: block;
+  list-style: none;
+  padding: 0 26px;
+  min-width: 115px;
 }
 
 .links a {
